@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.luizogr.RestWithSpringBootAndJavaApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.770 s -- in com.luizogr.RestWithSpringBootAndJavaApplicationTests
