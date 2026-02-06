@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5061394-a543-4a44-bf52-28214c764312" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/controllers/MathController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/exception/ExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/exception/UnsupportedMathOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/exception/handler/CustomEntityResponseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/service/MathService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luizogr/controllers/MathController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luizogr/exception/ExceptionResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luizogr/exception/UnsupportedMathOperationException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luizogr/exception/handler/CustomEntityResponseHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luizogr/service/MathService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/controllers/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/service/PersonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,31 +35,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.rest-with-spring-boot-and-java [clean...].executor": "Run",
-    "Maven.rest-with-spring-boot-and-java [clean].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.RestWithSpringBootAndJavaApplication.executor": "Run",
-    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/luizp/Documents/Projetos/rest-with-spring-boot-and-java/rest-with-spring-boot-and-java",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.rest-with-spring-boot-and-java [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-java [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.RestWithSpringBootAndJavaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/luizp/Documents/Projetos/rest-with-spring-boot-and-java/rest-with-spring-boot-and-java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\luizp\Documents\Projetos\rest-with-spring-boot-and-java\rest-with-spring-boot-and-java\src\main\java\com\luizogr" />
@@ -103,7 +96,9 @@
       <workItem from="1769299368850" duration="320000" />
       <workItem from="1769544699474" duration="4435000" />
       <workItem from="1769621898834" duration="3915000" />
-      <workItem from="1769800092300" duration="6477000" />
+      <workItem from="1769800092300" duration="7169000" />
+      <workItem from="1770123160839" duration="32000" />
+      <workItem from="1770321466411" duration="6438000" />
     </task>
     <servers />
   </component>
