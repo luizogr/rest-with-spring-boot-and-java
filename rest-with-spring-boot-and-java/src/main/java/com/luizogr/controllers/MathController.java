@@ -1,6 +1,5 @@
 package com.luizogr.controllers;
 
-import com.luizogr.exception.UnsupportedMathOperationException;
 import com.luizogr.service.MathService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

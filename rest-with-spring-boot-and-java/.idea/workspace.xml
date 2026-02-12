@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5061394-a543-4a44-bf52-28214c764312" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/controllers/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/repository/PersonRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luizogr/controllers/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/controllers/MathController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luizogr/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luizogr/exception/UnsupportedMathOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luizogr/exception/handler/CustomEntityResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/exception/handler/CustomEntityResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luizogr/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luizogr/service/MathService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/service/MathService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luizogr/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luizogr/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-with-spring-boot-and-java-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-with-spring-boot-and-java-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.luizogr.RestWithSpringBootAndJavaApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.luizogr.RestWithSpringBootAndJavaApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.luizogr.RestWithSpringBootAndJavaApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.luizogr.RestWithSpringBootAndJavaApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +114,10 @@
       <workItem from="1769800092300" duration="7169000" />
       <workItem from="1770123160839" duration="32000" />
       <workItem from="1770321466411" duration="6438000" />
+      <workItem from="1770399909493" duration="1803000" />
+      <workItem from="1770847444110" duration="2011000" />
+      <workItem from="1770924906980" duration="1834000" />
+      <workItem from="1770926782262" duration="1494000" />
     </task>
     <servers />
   </component>
